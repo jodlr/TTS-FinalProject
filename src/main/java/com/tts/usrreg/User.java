@@ -1,4 +1,4 @@
-package com.tts.codejava;
+package com.tts.usrreg;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

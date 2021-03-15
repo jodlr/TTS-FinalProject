@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tts</groupId>
-	<artifactId>CodeJavaApp</artifactId>
+	<artifactId>UsrReg</artifactId>
 	<version>1.0</version>
-	<name>CodeJavaApp</name>
+	<name>UsrReg</name>
 	<description>TTS Final Project</description>
 	<properties>
 		<java.version>1.8</java.version>

@@ -1,4 +1,4 @@
-package com.tts.codejava;
+package com.tts.usrreg;
 
 import java.util.*;
 import org.springframework.beans.factory.annotation.Autowired;

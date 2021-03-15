@@ -1,4 +1,4 @@
-package com.tts.codejava;
+package com.tts.usrreg;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
