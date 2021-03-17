@@ -29,10 +29,10 @@ public class UserRepositorytests {
     @Test
     public void testCreateUser() {
         User user = new User();
-        user.setEmail("Charley_White@prpc-inc.com");
-        user.setPassword("jwChangeMe!");
-        user.setFirstName("charley");
-        user.setLastName("White");
+        user.setEmail("John_Harden@prpc-inc.com");
+        user.setPassword("jhChangeMe!");
+        user.setFirstName("John");
+        user.setLastName("Harden");
          
         User savedUser = repo.save(user);
          
@@ -44,7 +44,7 @@ public class UserRepositorytests {
     
     @Test
     public void testFindUserbyEmail() {
-    	String email = "Admin@prpc-inc.com";
+    	String email = "It@mail.com";
     	
     	User user = repo.findByEmail(email);
     	

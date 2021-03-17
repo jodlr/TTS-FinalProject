@@ -39,14 +39,12 @@ public class AppController {
     }
     
     @PostMapping("/process_register")
-    public String processRegistration(User user, CrudRepository<User, Long> userRepo) {
-        
-        //repo.save(user);
-    	 BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
-    	    String encodedPassword = passwordEncoder.encode(user.getPassword());
-    	    user.setPassword(encodedPassword);
-    	     
-    	    userRepo.save(user);
+    public String processRegister(User user) {
+        BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
+        String encodedPassword = passwordEncoder.encode(user.getPassword());
+        user.setPassword(encodedPassword);
+         
+        userRepo.save(user);
          
         return "register_success";
     }
@@ -58,5 +56,6 @@ public class AppController {
          
         return "users";
     }
+    
         
 }
